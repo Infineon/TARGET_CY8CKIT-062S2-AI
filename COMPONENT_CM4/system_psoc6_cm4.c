@@ -296,7 +296,7 @@ void SystemCoreClockUpdate (void)
 
     cy_Hfclk0FreqHz = SystemCoreClock;
 
-    /* Get frequency for the high-frequency clock # 2 , whcih is used for PERI PCLK*/
+    /* Get frequency for the high-frequency clock # 2 , which is used for PERI PCLK*/
     clkHfPath = CY_SYSCLK_CLK_PERI_HF_PATH_NUM;
 
     pathFreqHz = Cy_SysClk_ClkHfGetFrequency(clkHfPath);

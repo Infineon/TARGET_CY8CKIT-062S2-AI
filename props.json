@@ -1,12 +1,11 @@
 {
     "core": {
-        "version": "4.3.0.40602"
+        "version": "4.3.2.43194"
     },
     "opt": {
         "props": {
             "capabilities": [
                 "adc",
-                "anycloud",
                 "bsp_gen4",
                 "bt",
                 "cat1",

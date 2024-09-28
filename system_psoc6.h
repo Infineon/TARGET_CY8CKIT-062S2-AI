@@ -346,7 +346,7 @@
 *   <tr>
 *       <td rowspan="1">2.95</td>
 *       <td>Update FPU enable function with CMSIS macros to disable/enable interrupts</td>
-*       <td>Move to stadnard inline CMSIS ARM macros</td>
+*       <td>Move to standard inline CMSIS ARM macros</td>
 *   </tr>
 *   <tr>
 *       <td rowspan="2">2.91</td>

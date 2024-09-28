@@ -806,7 +806,7 @@ void SystemInit(void)
 #endif /* !defined(CY_IPC_DEFAULT_CFG_DISABLE) */
 
     #if defined(CY_DEVICE_SECURE)
-        /* Initialize Protected Regsiter Access driver. */
+        /* Initialize Protected Register Access driver. */
         Cy_PRA_Init();
     #endif /* defined(CY_DEVICE_SECURE) */
 }
