@@ -2,7 +2,7 @@
 
 ## Overview
 
-The CY8CKIT-062S2-AI PSoC™ 62S2 AI Evaluation Kit is a cost effective and small development kit providing the best of Infineon's solutions to drive adoption of Infineon's hardware, Imagimob Studio and Infineon's Software products.
+The CY8CKIT-062S2-AI PSOC™ 62S2 AI Evaluation Kit is a cost effective and small development kit providing the best of Infineon's solutions to drive adoption of Infineon's hardware, Imagimob Studio and Infineon's Software products.
 
 
 ![](docs/html/board.png)
@@ -22,7 +22,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Contents:
 
-* PSoC™ 62S2 AI Evaluation board
+* PSOC™ 62S2 AI Evaluation board
 
 ## BSP Configuration
 

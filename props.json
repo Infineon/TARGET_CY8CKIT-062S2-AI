@@ -1,12 +1,13 @@
 {
     "core": {
-        "version": "4.3.2.43194"
+        "version": "5.0.0.44500"
     },
     "opt": {
         "props": {
             "capabilities": [
                 "adc",
-                "bsp_gen4",
+                "anycloud",
+                "bsp_gen5",
                 "bt",
                 "cat1",
                 "cat1a",
@@ -30,6 +31,7 @@
                 "psoc6",
                 "qspi",
                 "rtc",
+                "sdio",
                 "smart_io",
                 "spi",
                 "sram_1024k",
@@ -40,6 +42,7 @@
                 "wifi"
             ],
             "dependencies": {
+                "bt-fw-mur-cyw43439": "latest-v1.X",
                 "cat1cm0p": "latest-v1.X",
                 "core-lib": "latest-v1.X",
                 "core-make": "latest-v3.X",
