@@ -1,6 +1,5 @@
 # CY8CKIT-062S2-AI BSP Release Notes
-The CY8CKIT-062S2-AI PSOC™ 62S2 AI Evaluation Kit is a cost effective and small development kit providing the best of Infineon's solutions to drive adoption of Infineon's hardware, Imagimob Studio and Infineon's Software products.
-
+The CY8CKIT-062S2-AI PSOC™ 62S2 AI Evaluation Kit is a a low-cost hardware platform that enables design and debug of PSOC™ 6 MCUs. It comes with Murata LBEE5KL1YN Module, on-board debugger/programmer with KitProg3, microSD card interface,  512-Mb Quad-SPI NOR flash, motion sensor, magnetometer, pressure sensor, PDM-PCM microphone, and RADAR sensor.
 
 NOTE: BSPs are versioned by family. This means that version 1.2.0 of any BSP in a family (eg: PSOC™ 6) will have the same software maturity level. However, not all updates are necessarily applicable for each BSP in the family so not all version numbers will exist for each board. Additionally, new BSPs may not start at version 1.0.0. In the event of adding a common feature across all BSPs, the libraries are assigned the same version number. For example if BSP_A is at v1.3.0 and BSP_B is at v1.2.0, the event will trigger a version update to v1.4.0 for both BSP_A and BSP_B. This allows the common feature to be tracked in a consistent way.
 
@@ -16,10 +15,13 @@ The CY8CKIT-062S2-AI library includes the following:
 * API documentation
 
 ### What Changed?
+#### v5.0.1
+* Updated the capabilities in props.json for PSOC™ 6 MCU BSPs with AIROC™ Wi-Fi Bluetooth® Combo devices
+* Updated linker scripts to align with mtb-pdl-cat1 v3.16.0 for CY8CPROTO-062S3-4343W BSP
 #### v5.0.0
-New dependency added for PSOC™ 6 MCU BSPs with AIROC™ Wi-Fi Bluetooth® Combo devices
+* New dependency (Bluetooth® fimrware) added for PSOC™ 6 MCU BSPs with AIROC™ Wi-Fi Bluetooth® Combo devices
 #### v4.3.1
-Updated the README file for CY8CEVAL-062S2-MUR-43439M2.
+* Updated the README file for CY8CEVAL-062S2-MUR-43439M2.
 #### v4.3.0
 * Update companion device pin configuration to align with requirements of MUR-43439 and LAI-43439 M.2 module.
 * Updated the README file for CY8CEVAL-062S2, CY8CEVAL-062S2-LAI-43439M2, CY8CEVAL-062S2-LAI-4373M2, CY8CEVAL-062S2-MUR-4373M2, CY8CEVAL-062S2-MUR-4373EM2, and CY8CEVAL-062S2-CYW43022CUB BSPs to remove the M.2 radio module detail from kit contents section.
@@ -113,4 +115,4 @@ Minimum required ModusToolbox™ Software Environment: v3.0.0
 [api]: https://infineon.github.io/TARGET_CY8CKIT-062S2-AI/html/modules.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2024.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2025.

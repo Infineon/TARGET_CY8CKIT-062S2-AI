@@ -2,8 +2,7 @@
 
 ## Overview
 
-The CY8CKIT-062S2-AI PSOC™ 62S2 AI Evaluation Kit is a cost effective and small development kit providing the best of Infineon's solutions to drive adoption of Infineon's hardware, Imagimob Studio and Infineon's Software products.
-
+The CY8CKIT-062S2-AI PSOC™ 62S2 AI Evaluation Kit is a a low-cost hardware platform that enables design and debug of PSOC™ 6 MCUs. It comes with Murata LBEE5KL1YN Module, on-board debugger/programmer with KitProg3, microSD card interface,  512-Mb Quad-SPI NOR flash, motion sensor, magnetometer, pressure sensor, PDM-PCM microphone, and RADAR sensor.
 
 ![](docs/html/board.png)
 
@@ -13,12 +12,14 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ### Kit Features:
 
-* Support of up to 512-Mb NOR flash
-* Supports Full-Speed USB, a PDM-PCM digital microphone interface, a Quad-SPI interface, an I2C interface.
-* Supports 6-axis motion sensor (BMI270)
-* Supports magnetometer (BMM350)
+* Featuring the PSOC™ 6 CY8C62xA MCU (MPN: [CY8C624ABZI-S2D44](https://www.infineon.com/cms/en/product/microcontroller/32-bit-psoc-arm-cortex-microcontroller/psoc-6-32-bit-arm-cortex-m4-mcu/cy8c624abzi-s2d44/)): Ultra low power, high performance MCU based on the dual core CPU architecture of Arm® Cortex®-M4 and Arm® Cortex®-M0+, up to 2 MB of on-chip Flash, 1 MB of SRAM, built-in hardware and software security features, rich analog, digital, and communication peripherals
+* Wireless module(Murata 1YN) based on Infineon's AIROC™ CYW43439 single-chip combo device (2.4 GHz Wi-Fi 4 (802.11n) and Bluetooth® 5.2) for evaluating cloud connected applications with PSOC™ 6 as the Wi-Fi host MCU
+* Integrated on-board programmer / debugger, memory expansion through 512-Mb Quad-SPI NOR Flash, microSD card interface, LEDs
+* Supports PDM-PCM digital microphone, full-Speed USB, an I2C interface.
 * Supports barometric pressure sensor (DPS368)
 * Supports RADAR sensor (BGT60TR13C)
+* Supports 6-axis motion sensor (BMI270)
+* Supports magnetometer (BMM350)
 
 ### Kit Contents:
 
@@ -26,7 +27,7 @@ To use code from the BSP, simply include a reference to `cybsp.h`.
 
 ## BSP Configuration
 
-The BSP has a few hooks that allow its behavior to be configured. Some of these items are enabled by default while others must be explicitly enabled. Items enabled by default are specified in the CY8CKIT-062S2-AI.mk file. The items that are enabled can be changed by creating a custom BSP or by editing the application makefile.
+The BSP has a few hooks that allow its behavior to be configured. Some of these items are enabled by default while others must be explicitly enabled. Items enabled by default are specified in the bsp.mk file. The items that are enabled can be changed by creating a custom BSP or by editing the application makefile.
 
 Components:
 * Device specific category reference (e.g.: CAT1) - This component, enabled by default, pulls in any device specific code for this board.
@@ -70,4 +71,4 @@ See the [BSP API Reference Manual][api] for the complete list of the provided in
 [settings]: https://infineon.github.io/TARGET_CY8CKIT-062S2-AI/html/md_bsp_settings.html
 
 ---
-© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2024.
+© Cypress Semiconductor Corporation (an Infineon company) or an affiliate of Cypress Semiconductor Corporation, 2019-2025.
